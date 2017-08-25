@@ -9,8 +9,7 @@ public class Main {
         int a,b,c;
         Scanner scanner = new Scanner(System.in);
         while(vvod!=0) {
-            System.out.println("Введите номер задачи");
-            System.out.print("или ноль для выхода = ");
+            System.out.print("Введите номер задачи или ноль для выхода = ");
             vvod=scanner.nextInt();
             switch (vvod) {
                 case 1:
